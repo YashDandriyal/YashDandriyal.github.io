@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Dandriyal - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h2 class="logo">YourName</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Yash Dandriyal</span></h1>
+            <p class="tagline">Software Developer | Backend Engineer | Problem Solver</p>
+            <p class="bio">
+                I build scalable backend systems, REST APIs, and data-driven applications 
+                using Java, Python, and modern tech stacks.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="https://github.com/YOUR_USERNAME" target="_blank" class="btn btn-secondary">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-text">
+                I'm a software developer based in India with experience in backend development, 
+                system design, and building production-grade applications. I enjoy solving 
+                complex problems and building systems that scale.
+            </p>
+            <p class="section-text">
+                Currently focusing on Java Spring Boot, Python FastAPI, PostgreSQL, 
+                Docker, and cloud deployments.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Java, Spring Boot, Python, FastAPI</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Databases</h3>
+                    <p>PostgreSQL, MySQL, Redis</p>
+                </div>
+                <div class="skill-card">
+                    <h3>DevOps</h3>
+                    <p>Docker, Git, Linux, CI/CD</p>
+                </div>
+                <div class="skill-card">
+                    <h3>System Design</h3>
+                    <p>REST APIs, Microservices, Caching</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1: URL Shortener -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🔗 High-Throughput URL Shortener</h3>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Redis</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Production-grade URL shortener with Base62 encoding, click analytics, 
+                        and REST API. Handles high read-throughput with Redis caching and 
+                        PostgreSQL persistence.
+                    </p>
+                    <ul class="project-features">
+                        <li>Base62 ID encoding for collision-free short codes</li>
+                        <li>Click tracking and analytics dashboard</li>
+                        <li>RESTful API with OpenAPI documentation</li>
+                        <li>Dockerized deployment with managed Postgres</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn btn-small btn-primary">Live Demo</a>
+                        <a href="https://github.com/YOUR_USERNAME/url-shortener" target="_blank" class="btn btn-small btn-secondary">Source Code</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Flight Tracker -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>✈️ Flight Price Tracker</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Celery</span>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Real-time flight price monitoring system with change detection. 
+                        Periodic data ingestion pipeline tracks price trends and alerts users 
+                        of significant changes.
+                    </p>
+                    <ul class="project-features">
+                        <li>Automated periodic data ingestion with workers</li>
+                        <li>Time-series price storage and trend analysis</li>
+                        <li>Change detection with sliding window algorithms</li>
+                        <li>REST API for querying trends and alerts</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn btn-small btn-primary">Live Demo</a>
+                        <a href="https://github.com/YOUR_USERNAME/flight-tracker" target="_blank" class="btn btn-small btn-secondary">Source Code</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-text">
+                I'm currently open to backend engineering opportunities. 
+                Feel free to reach out!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:yashdandriyal7@gmail.com" class="contact-btn">
+                    <span>📧</span> Email
+                </a>
+                <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" class="contact-btn">
+                    <span>💼</span> LinkedIn
+                </a>
+                <a href="https://github.com/YOUR_USERNAME" target="_blank" class="contact-btn">
+                    <span>💻</span> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yash Dandriyal. Built with HTML & CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
